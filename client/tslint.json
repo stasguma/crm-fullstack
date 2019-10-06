@@ -54,6 +54,5 @@
         "use-lifecycle-interface": true,
         "use-pipe-transform-interface": true
     },
-    "rulesDirectory": ["codelyzer"],
-    "target": "es5"
+    "rulesDirectory": ["codelyzer"]
 }
