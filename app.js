@@ -34,7 +34,7 @@ app.use('/api/order', orderRoutes);
 app.use('/api/position', positionRoutes);
 
 if (process.env.NODE_ENV === 'production') {
-    app.use(export.static('client/disc/client'));
+    app.use(express.static('client/disc/client'));
 
     app.get('*', (req, res) => {
         res.sendFile(
