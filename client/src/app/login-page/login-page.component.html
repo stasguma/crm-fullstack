@@ -18,8 +18,8 @@
                 class="helper-text red-text"
                 *ngIf="form.get('email').invalid && form.get('email').touched"
             >
-                <span *ngIf="form.get('email').errors['required']">Email cannot be blank</span>
-                <span *ngIf="form.get('email').errors['email']">Please, fill correct email</span>
+                <span *ngIf="form.get('email').errors['required']">Поле не может быть пустым</span>
+                <span *ngIf="form.get('email').errors['email']">Укажите корректный email</span>
             </span>
         </div>
         <div class="input-field">
