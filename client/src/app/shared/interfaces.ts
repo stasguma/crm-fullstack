@@ -10,6 +10,7 @@ export interface Message {
 export interface Category {
     name: string;
     imageSrc?: string;
+    cloudImageSrc?: string;
     user?: string;
     _id?: string;
 }

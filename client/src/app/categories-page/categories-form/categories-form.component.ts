@@ -53,7 +53,8 @@ export class CategoriesFormComponent implements OnInit {
                         this.form.patchValue({
                             name: category.name
                         });
-                        this.imagePreview = category.imageSrc;
+                        console.log(category);
+                        this.imagePreview = category.cloudImageSrc;
                         MaterialService.updateTextInputs();
                     }
 

@@ -10,6 +10,14 @@ const categorySchema = new Schema({
         type: String,
         default: ''
     },
+    cloudImageSrc: {
+        type: String,
+        default: ''
+    },
+    imageId: {
+        type: String,
+        default: ''
+    },
     user: {
         ref: 'users',
         type: Schema.Types.ObjectId
